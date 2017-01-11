@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_1c3f014fe35596c9652210a9b54586f395a9fd3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/.m2/repository/uk/me/berndporr/iirj/1.0/iirj-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="25de50a35fec7016884cd6cb5252c0d15ba2e13b">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/iirj-1.0_5aa619a3739caedce6d1562ecc6e6c8621f3d393.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_abbd4af2e59aa1ecd64710daabfe7a466e0bb631.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_51f3d5cd11ed36612eb12fe20899f77910621f57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_d3882426a8c3ec705b9efbf5b9949bd7178bdb07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_4f05dfd61509b0e61d3b0799974ad36539c1b897.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/commons-math3-3.6.1_2dbd60ca836179b4f29c78faaeb9d10073ce46c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_04da85e0c48ca9defcbf8efe1e219b8e943e7c41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_79e960b9df80d4df79bc3293a0680883477eafea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_2acad7332bfcbd4fa46654f2e6b005576d1bbd84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_2a85fad5e15f9c5441b5132881cb0fa493b0849a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_9b322ceb58783c19854eefb4d41d5adad140e4c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_3100e8723ae34dbc9bce614eb41d2ed59eef5a6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_7011d2bf3c7849a2fa0c4d01af037b3bd5a03676.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_9eb721f365f06b1d2460343dd8161dcc0e4388c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_1fa307df72d5592da55ba703703f1b4fe382dcfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_ccf5f5ad932359f82a0fd52aff2a55a197731537.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_b156d00d33de933feb05d507049b2d1d694a9eca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_331efb7a1fae211a67bd2252b8d161cdf2b6f7bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_e99fc58f4e710662cdb00813cab2824703307424.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-9.8.0_c303329c990ee27083659be9b4db6d027ffae19f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/paul/Dev/AttysScope/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/home/paul/Dev/AttysScope/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.8.0_e2bb8a3811932334a9230c448b846d0bf776c86f.jar" />
+    </item>
+
+</items>

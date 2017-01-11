@@ -60,6 +60,7 @@ import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
 
+
 import tech.glasgowneuro.attyscomm.AttysComm;
 import uk.me.berndporr.iirj.Butterworth;
 
@@ -69,8 +70,11 @@ public class AttysScope extends AppCompatActivity {
     // screen refresh rate
     private final int REFRESH_IN_MS = 50;
 
+
+
     private RealtimePlotView realtimePlotView = null;
     private InfoView infoView = null;
+    private GraphicsView graphicsView = null;
 
     private BluetoothAdapter BA;
     private AttysComm attysComm = null;
@@ -79,7 +83,7 @@ public class AttysScope extends AppCompatActivity {
 
     UpdatePlotTask updatePlotTask = null;
 
-    private static final String TAG = "AttysScope";
+    private static final String TAG = "AttysPlot";
 
     private Highpass[] highpass = null;
     private float[] gain;
@@ -88,6 +92,8 @@ public class AttysScope extends AppCompatActivity {
     private int notchOrder = 2;
     private boolean[] invert;
     private float powerlineHz = 50;
+
+    static int extFiltBPM;
 
     private boolean showAcc = false;
     private boolean showMag = false;
@@ -309,6 +315,13 @@ public class AttysScope extends AppCompatActivity {
                     infoView.drawText(largeText, small);
                 }
             }
+            if (graphicsView != null) {
+                if (attysComm != null) {
+                        graphicsView.drawHeartbeat(AttysScope.extFiltBPM);
+                }
+            } else {
+                Log.d(TAG, "GraphicsView: attempted to draw icon but not created!!");
+            }
         }
 
         private void doAnalysis(float v) {
@@ -338,6 +351,7 @@ public class AttysScope extends AppCompatActivity {
                             if (h > (0.6 * max)) {
                                 float t = (timestamp - t2) / attysComm.getSamplingRateInHz();
                                 float bpm = 1 / t * 60;
+                                //report the median of the last 3 samples of HR
                                 if ((bpm > 30) && (bpm < 300)) {
                                     hrBuffer[2] = hrBuffer[1];
                                     hrBuffer[1] = hrBuffer[0];
@@ -345,13 +359,16 @@ public class AttysScope extends AppCompatActivity {
                                     System.arraycopy(hrBuffer, 0, sortBuffer, 0, hrBuffer.length);
                                     Arrays.sort(sortBuffer);
                                     int filtBPM = sortBuffer[1];
+                                    AttysScope.extFiltBPM = filtBPM;
+                                    Log.d(TAG, "*** Heart Beat!! ***");
+
                                     if (filtBPM > 0) {
                                         annotatePlot(String.format("%03d BPM", (int) filtBPM));
                                     }
                                 }
                                 t2 = timestamp;
                                 // advoid 1/4 sec
-                                doNotDetect = attysComm.getSamplingRateInHz() / 4;
+                                doNotDetect = attysComm.getSamplingRateInHz() / 40;
                             }
                         }
                     }
@@ -668,6 +685,8 @@ public class AttysScope extends AppCompatActivity {
         infoView = (InfoView) findViewById(R.id.infoview);
         infoView.setZOrderOnTop(true);
         infoView.setZOrderMediaOverlay(true);
+
+        graphicsView = (GraphicsView) findViewById(R.id.graphicsview);
 
         attysComm.start();
 
